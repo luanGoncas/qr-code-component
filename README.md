@@ -71,4 +71,4 @@ I learned to use responsiveness more effectively, rely less on Flexbox, and unde
 ## Author
 
 - Website - [Luan Santos Gonçalves](https://www.linkedin.com/in/luangoncas/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/luanGoncas)
+- Frontend Mentor - [@luanGoncas](https://www.frontendmentor.io/profile/luanGoncas)
