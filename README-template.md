@@ -38,6 +38,12 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
+- Setting CSS file and coloring the body background-color
+- Display all elements on screen
+- Put the typography properties
+- Putting the elements on their respective classes
+- Using viewport elements to find out correct margin and padding
+
 ### Built with
 
 - Semantic HTML5 markup
