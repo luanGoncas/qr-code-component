@@ -15,8 +15,7 @@ body {
 .main_card {
     font-family: 'Outfit', serif;
     background-color: hsl(0, 0%, 100%);
-    margin-top: 12.5vh;
-    margin-left: 37.5vw;
+    margin: 12.5vh 37.5vw;
     max-width: 25vw;
     border-radius: 5%;
     justify-items: center;
@@ -25,12 +24,12 @@ body {
 }
 
 img {
-    margin-top: 10px;
-    max-width: 22.5vw;
+    margin: 10px;
+    max-width: 21.25vw;
     border-radius: inherit;
 }
 
-.main_text {    
+.main_text {   
     font-weight: 700;
     color: hsl(218, 44%, 22%);
 }
@@ -41,10 +40,9 @@ img {
 }
 
 .main_text, .scan_text {
+    margin: 7.5px;
+    padding: 7.5px;
     text-align: center;
-    padding: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
 }
 
 @media ((max-width: 375px) or (max-width: 425px) or (max-width: 768px)) {
@@ -52,6 +50,11 @@ img {
         max-width: 100vw;
         margin-left: 5vw;
         margin-right: 5vw;
+    }
+
+    .main_text, .scan_text {
+        margin: 15px;
+        padding: 15px;
     }
 
     img {
