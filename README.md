@@ -48,17 +48,71 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 I learned to use responsiveness more effectively, rely less on Flexbox, and understand the differences in sizing across different devices.
 
 ```css
-@media ((max-width: 375px) or (max-width: 425px) or (max-width: 768px)) {
+@media ((min-width: 320px) and (max-width: 375px)) {
     .main_card {
-        max-width: 100vw;
-        margin-left: 5vw;
-        margin-right: 5vw;
+        padding: 0.5vh 0.5vw;
+        margin: 12.5vh 15vw;
     }
 
     img {
-        max-width: 75vw;
-        margin-left: 25vw;
-        margin-right: 25vw;
+        max-width: 65vw;
+    }
+
+    .main_text {
+        margin: 0 5vw;
+    }
+}
+
+@media ((min-width: 375px) and (max-width: 425px)) {
+    .main_card {
+        padding: 0.5vh 0.5vw;
+        margin: 7.5vh 15vw;
+    }
+
+    img {
+        max-width: 65vw;
+    }
+
+    .main_text {
+        margin: 0 10vw;
+    }
+}
+
+@media ((min-width: 425px) and (max-width: 768px)) {
+    .main_card {
+        padding: 0.75vh 0.5vw;
+        margin: 7.5vh 16vw;
+    }
+
+    img {
+        max-width: 60vw;
+    }
+
+    .main_text {
+        margin: 0 12.5vw;
+    }
+
+    .scan_text {
+        margin: 2vh 1vw;
+    }
+}
+
+@media ((min-width: 768px) and (max-width: 1024px)) {
+    .main_card {
+        padding: 0.75vh 0.5vw;
+        margin: 7.5vh 35vw;
+    }
+
+    img {
+        max-width: 25vw;
+    }
+
+    .main_text {
+        margin: 0 2vw;
+    }
+
+    .scan_text {
+        margin: 2vh 0;
     }
 }
 ```
